@@ -1,0 +1,23 @@
+.level {
+  display: flex;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.labelLevel {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+@media (max-width: 555px) {
+  .level {
+    flex-direction: column;
+  }
+
+  .labelLevel {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+}

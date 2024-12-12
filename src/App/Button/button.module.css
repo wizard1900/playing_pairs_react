@@ -1,0 +1,46 @@
+.button {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: transparent;
+  color: #777;
+  border: 3px solid gray;
+  border-radius: 8px;
+  padding: 8px 15px;
+  margin: 0 auto;
+}
+
+.button:hover {
+  background-color: #6090ee;
+  color: yellow;
+}
+
+.button:active {
+  background-color: #4e4ed4;
+}
+
+.win {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: green;
+  text-align: center;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.best {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: red;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 555px) {
+  .win {
+    font-size: 19px;
+  }
+}
